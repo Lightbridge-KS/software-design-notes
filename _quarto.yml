@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "Software Design Notes"
+  author: "Kittipos Sirivongrungson"
+  repo-url: https://github.com/Lightbridge-KS/software-design-notes
+  site-url: https://software-design-notes-lightbridge.netlify.app
+  date: today
+  chapters:
+    - index.qmd
+    - part: Case Studies
+      chapters: 
+        - text: MONAI Deploy Gateway (.NET)
+          href: "contents/oss/monai-deploy-info-gw-system.qmd"
+
+
+
+format:
+  html:
+    theme:
+      light: 
+        - cosmo
+        - brand
+      dark: 
+        - darkly
+    lightbox: true
